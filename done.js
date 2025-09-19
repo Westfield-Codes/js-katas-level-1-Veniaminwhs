@@ -6,10 +6,10 @@
 
 
 /* Prompt */
-
+var color = "grean";
 /* Prompt with Conditional */
 
-
+alert ( "My favorite color is " + color );
 /* AGE */
 
 /* No Prompt */
