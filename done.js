@@ -23,13 +23,18 @@ alert ( "My favorite color is " + color );
 
 /* ICE CREAM */
 
-/* No Prompt */
+/* Var Alert Prompt */
+// make a string variable for favorite ice cream flavor, prompt user for it
+let  flavor = prompt(" What is your favorite flavor ? ");
+// make an integer variable for number of scoops on the cone, prompt user for it
+let  scoops = prompt(" How many scoops of ice cream do you want ? ");
+// alert "You want " scoops "scoops of " flavor
 
-
-/* Prompt */
-
-
-/* Prompt with Conditional */
+// if scoosp is creater than three, alert ("Max 3 scoops!")
+if (scoops > 3 ){
+    alert("Max 3 scoops ");
+} 
+else alert("You want " + scoops + " scoops of " + flavor);
 
 
 /* PET */
